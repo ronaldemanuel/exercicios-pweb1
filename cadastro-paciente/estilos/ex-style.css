@@ -1,0 +1,226 @@
+/*  CSS RESET   */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*//////*/
+
+body {
+    background-color: rgb(80, 173, 126);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+}
+    
+header{
+    background-color: rgb(18, 95, 66);
+    color: whitesmoke;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20pt;
+    width: 100vw;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+div.cabecalho img{
+    height: 40px;
+    margin-right: 2vw;
+    margin-left: 9vw;
+}
+
+.conteudo {
+    background-color: whitesmoke;
+    width: 73vw;
+    padding: 50px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10vh;
+    border-radius: 15px;
+}
+
+h2,
+h3 {
+    background-color: rgb(136, 136, 136);
+    color: white;
+    font-size: 14pt;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    background-color: rgb(82, 82, 82);
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+input[type='text'],
+input[type='date'] {
+    margin-bottom: 2vh;
+}
+
+input[type='text'] {
+    height: 20px;
+    width: 270px;
+}
+
+label.text-dados-demograficos {
+    display: inline-block;
+}
+
+
+label.ic {
+    margin-left: 20px;
+}
+
+.big-text {
+    min-width: 65vw;
+}
+
+label.radio-selecao {
+    margin-bottom: 2em;
+}
+
+label.checkbox {
+    margin-bottom: 10px;
+}
+
+.vertical-box {
+    display: flex;
+    align-content: center;
+    position: relative;
+}
+
+.right-box {
+    margin-left: 44vw;
+    position: absolute;
+}
+
+
+.title-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-box h4 {
+   align-self: center;
+   width: 22vw;
+}
+
+.center-box {
+    width: 30vw;
+}
+
+.selecao .vertical-box .right-box{
+    margin: auto;
+    right: 0;
+}
+
+/* TABELA */
+
+
+th,
+tr td {
+    border-bottom: 1px solid rgba(124, 124, 124, 0.671);
+}
+
+th, 
+td {
+    padding: 4px;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+}
+
+.texto {
+    width: 80%;
+}
+
+.input-radio {
+    padding-right: 7%;
+    padding-left: 4%;
+    border-top: 1px solid rgba(124, 124, 124, 0.671);
+}
+
+.no-border td {
+    border-top: 0;
+}
+
+/*BOTÃO*/
+.botao {
+    position: relative;
+    margin-top: 20px;
+}
+
+.botao button {
+    font-size: 15pt;
+    position: absolute;
+    left: calc(50% - 40px);
+    margin-right: -50%;
+}
+
+/*RODAPÉ*/
+
+footer {
+    color: rgb(75, 75, 75);
+    font-size: 12pt;
+    top: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
