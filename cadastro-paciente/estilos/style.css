@@ -23,7 +23,7 @@ body {
 }
 
 header img {
-    height: 4vh;
+    height: 4.5vh;
     margin-right: 20px;
     margin-left: 30px;
 }
@@ -36,6 +36,7 @@ header img {
     color: whitesmoke;
     text-decoration: none;
     display: flex;
+    justify-content: center;
 }
 
 /*conteudo*/
@@ -88,7 +89,6 @@ h4 {
 }
 
 .line-a {
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
